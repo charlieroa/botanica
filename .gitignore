@@ -23,6 +23,10 @@ backend/*.log
 # Scripts runtime logs
 scripts/*.log
 
+# Claude Code local state
+.claude/settings.local.json
+.claude/*.lock
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
